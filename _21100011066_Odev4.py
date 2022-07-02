@@ -1,6 +1,3 @@
-#21100011066
-#ENES EREN SEVEN
-#ÜCRETLİ KÜTÜPHANE OTOMASYONU
 import datetime #Kütüphaneye abonelik süresini bulmak için
 import time #Kütüphane içerisine giriş saatini ve çıkış saatini ayarlamak için
 import winsound #Alarmın çalması için
@@ -8,8 +5,8 @@ print("kütüphane otomasyonuna hoş geldiniz\n")
 Kullanicilar=[]
 mesgul=[]#KÜTÜPHANE İÇERİSİNDE OLANLAR DEPOLANIYOR
 Aboneler=[]#Kütüphaneye abone olanlar saklanıyor.
-NULL={}#python da NULL değereni bulamadım kendim NULL yaptım
-ListeNULL=[]#Bu da arada lazım oluyor.
+NULL={}
+ListeNULL=[]
 AbonelikUcreti=300
 saat=int(input("Lütfen kapanış saatini önce saat sonra dakika şeklinde giriniz:\n"))
 dakika=int(input())
